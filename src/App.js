@@ -1,7 +1,7 @@
 import './App.css';
 import io from 'socket.io-client';
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://mike-orejuela-portfolio-server.onrender.com");
 
 function App() {
   return (
